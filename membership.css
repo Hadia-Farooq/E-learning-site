@@ -1,0 +1,1626 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  text-decoration: none;
+}
+body{
+    background:#FFFFFF;
+    color: #1e293b;
+}
+.containerA {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+ /* navbar */
+.navbarA{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 13px 6%;
+  background: #FFFFFF;
+
+
+}
+.logoA img{
+  height: 40px; /* Logo ki height adjust karein */
+  width: auto;
+}
+
+/* nav Links */
+.nav-linksA .ulA{
+  display: flex;
+  list-style: none;
+  gap: 30px; /* Links ke beech ka gap */
+  padding-left: 300px;
+  padding-top: 5px;
+}
+
+.nav-linksA a{
+  text-decoration: none;
+  color: #555555;
+  font-weight: 500;
+  font-size: 16px;
+  cursor: pointer;
+
+}
+
+.nav-linksA a:hover{
+  color: #49BBBD; /* Hover color */
+}
+
+
+/* User Profile Section */
+.user-profileA{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.profile-imgA{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+
+}
+
+.usernameA {
+  font-weight: 300;
+  color: #000000
+}
+/* PRICING SECTION */
+  .pricingA{
+    padding:40px 0;
+    text-align:center;
+     
+
+}
+  .pricingA .h1A{
+    color:#49BBBD; 
+    font-size:54px;
+    font-weight:800;
+    margin-bottom:45px;
+    
+  }
+
+  .pricing-containerA{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    align-items:flex-start;
+  }
+
+  .cardA{
+    background:#FFFFFF;
+    border-radius:16px;
+    padding:25px 20px;
+    margin: 30px 0;
+    width:260px;
+    text-align:left;
+    border:1px solid #f1f5f9;
+  
+  }
+ 
+
+  /* MIDDLE CARD - HIGHLIGHT */
+  .cardA.midA {
+    box-shadow: 0 10px 30px rgba(0, 209, 209, 0.12);
+    border: 1px solid #E0F9F9;
+    transform: translateY(-10px);
+    position: relative;
+}
+
+  .card-headerA{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:15px;
+}
+  .paraA{
+    font-size:16px;
+    color:#49BBBD;
+    font-weight:700;
+}
+  .badges{
+  top: 15px;
+  right: 20px;
+  border:1px solid #6C5CE7;
+  background: #e8f0f5;
+  color: #2D3436;
+  padding: 4px 20px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+  .priceA{
+    font-size:40px;
+    font-weight:700;
+    color:#2D3436;
+    margin-bottom:25px;
+}
+  .priceA .spanA{
+    font-size:14px;
+    color:#2D3436;
+    font-weight:500;
+    margin-left: 5px;
+}
+
+  .list-styleA{
+    list-style:none;
+    margin-bottom:20px;
+    margin-left: -25px;
+    min-height:160px;
+}
+  .list-styleA .liA{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    font-size:14px;
+    color:#2D3436;
+    margin-bottom:20px;
+  }
+  .list-styleA .iconA{
+    width:18px;
+    height:18px;
+    border-radius:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:10px;
+  }
+  /* Gray icons for Free */
+  .cardA.freeA .iconA{
+    background:#C2C2C2;
+    color:#2D3436;
+}
+  /* Yellow icons for Mid */
+  .cardA.midA .iconA{background:#FDCB6E;
+    color:#2D3436;}
+  /* Green icons for Corporate */
+  .cardA.corpA .iconA{
+    background:#55EFC4;
+    color:#2D3436;
+}
+
+  .btnA{
+    width:100%;
+    padding:10px;
+    border-radius:8px;
+    font-weight:600;
+    font-size:13px;
+    cursor:pointer;
+  }
+  /* Free + Corp Button */
+  .btnA.outlineA{
+    background:#FFFFFF;
+  
+    border:1px solid #E2E8F0;
+  }
+  .btnA.outlineA:hover{
+    border-color:#00D1D1;
+    color:#00D1D1;}
+    .btnA.outlineA a{
+          color:#49BBBD;
+       
+    }
+  /* Mid Button */
+  .btnA.primaryA{
+    background:#00D1D1; /* Exact Teal Button */
+  
+    border:none;
+    box-shadow:0 4px 10px rgba(0,209,209,0.3);
+  }
+  .btnA.primaryA:hover{
+    background:#00B8B8;
+}
+  .btnA.primaryA a{
+  
+     color:#FFFFFF;
+  }
+/* dark banner */
+.bannerA{
+  background: #252641;
+  color: #FFFFFF;
+  padding: 50px 0px;
+  border-radius: 37px;
+  text-align: center;
+  margin: 30px 48px;
+  
+}
+.bannerA .h3A{
+  margin-bottom:12px ;
+  font-size:20px;
+  font-weight:700;
+  color:#FFFFFF;
+}
+.bannerA .pA{
+  font-size: 14px;
+  color: #FFFFFF;
+  max-width: 500px;
+  line-height:1.6;
+  max-width:600px;
+  margin:0 auto 25px auto; /*center+spacing*/
+}
+.bannerA .BtnA{
+  width:auto;
+  margin-top: 15px;
+  background:#49BBBD;
+
+  border:none;
+  padding:10px 22px;
+  border-radius:10px;
+  font-size:13px;
+  font-weight:600;
+}
+.BtnA a{
+  color:#FFFFFF; 
+
+}
+/* online coaching */
+ .faqA{
+  background:#FFFFFF;
+  padding:50px 10px;
+  
+}
+ .faq-titleA{
+  text-align:center;
+  font-size:26px;
+  font-weight:700;
+  color:#2D3436;
+  margin-bottom:30px;
+}
+  .faq-itemA{
+    border-bottom:1px solid #696984;
+    padding:12px 0;
+    margin-left:58px;
+    margin-right:58px;
+}
+  .faq-qA{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    font-size:14px;
+    color:#2D3436;
+  
+
+  }
+   .faq-q-leftA{
+    display:flex;
+    gap:10px;
+    align-items:center;
+
+  
+  }
+  .dotA{
+    width:8px;
+    height:8px;
+    background:#55EFC4;
+    border-radius:50%; 
+
+  }
+  .material-symbols-outlined{
+    color:#696984;
+    transition:0.3s;
+    font-size: 20px;
+  }
+    .faq-aA{
+      padding-left:19px;
+      margin-top:9px;
+      font-size:19px;
+      color:#696984;
+      line-height:1.5;
+    }
+  
+
+    /*  TESTIMONIALS */
+    .girlA{
+      height: 460px;
+      width:auto;
+      background:#abcbee;
+      padding:50px 0;
+    }
+    .girl-titleA{
+        text-align:left;
+        font-size:25px;
+        font-weight:600;
+        margin-bottom:30px;
+        padding: 0 55px;
+        color:#2D3436;
+      }
+      .girl-gridA{
+        display:flex;
+        gap:20px;
+        justify-content:center;
+        flex-wrap:wrap;
+      }
+      .girl-cardA{
+        background:#FFFFFF;
+        border-radius: 20px;
+        padding:10px 0;
+        width:200px;
+        height: 220px;
+        box-shadow:0 2px 10px rgba(0,0,0,0.05);text-align:center;
+      }
+       .girl-cardA .girl-imgA{
+        width:50px;
+        height:50px;
+        margin-top:5PX ;
+        margin-bottom:10px;
+       margin-left: auto;
+margin-right: auto;
+display: block;
+        background-color: rgb(241, 235, 235);
+        align-items: center;
+      }
+      .girl-cardA b{
+        font-size:14px;
+        font-weight:600;
+        color: #2D3436;
+      }
+      .girl-cardA .pA{
+        font-size:18px;
+        color:#696984;
+        margin-top:15px;
+      }
+       .girl-wrapperA{
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        margin-left: 20px;
+        margin-right: 20px;
+       
+      } 
+      .iconA{
+        width:30px;
+        height:30px;
+        border-radius:25px;
+        background-color:#49BBBD ;
+        color: #FFFFFF;
+        border:none;
+        font-size:16px;
+        font-weight:700;
+        cursor:pointer;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        position:relative;
+     
+      }
+       /* APP BANNER */
+  .app-bannerA{
+    background:#252641;
+    color:#FFFFFF;
+    height: 100px;
+    padding:40px 30px;
+    border-radius:10px;
+    display:flex;
+    justify-content:space-between;align-items:center;
+    margin:70px 70px;
+  }
+  .app-bannerA .h3AA{
+    font-size:25px;
+    font-weight: 400;
+  }
+  .app-btnA{
+    background:#29B9E7;
+    color:#FFFFFF;
+    border:none;
+    padding:7px 18px;
+    border-radius:12px;
+    font-size:14px;
+    cursor:pointer;
+    margin-left:7px;
+    width: 150px;
+    justify-content: center;
+    display: inline-flex;
+    align-items: center;  
+    gap: 8px;
+  }
+  .btnsA{
+    background-color: #49BBBD;
+  }
+ 
+
+  /*  2 cards */
+
+    .cardsA{
+      display:flex;
+      gap:25px;
+      justify-content:center;
+      flex-wrap:wrap;
+      margin-top: 90px;
+    }
+  .c-cardA{
+    background:#FFFFFF;
+    border-radius:20px;
+    overflow:hidden;
+    width:440px;
+    height: 400px;
+    box-shadow:0 4px 15px #2F327D1A;
+  }
+  .c-cardA .card-img{
+    width:400px;
+    height:200px;
+    border-radius: 20px;
+    margin: 20px 20px;
+    
+  }
+  .c-cardA .card-div{
+    padding:5px 25px;
+  }
+  .c-cardA .h4a{
+    font-size:20px;
+    font-weight:500;
+    margin-bottom:10px;
+    color: #252641;
+  }
+  .c-cardA .card-para{
+    font-size:11px;
+    color:#696984;
+    margin-bottom:15px;
+    line-height:1.5;
+  }
+  .c-cardA .buttonA{
+    background:#49BBBD;
+
+    border:none;
+    padding:8px 16px;
+    margin-left: 200px;
+    margin-top: 20px;
+    border-radius:12px;
+    cursor:pointer;
+    font-size:12px;
+    float:right;
+  }
+  .buttonA a{
+  color:#FFFFFF;
+  }
+
+  /*  FOOTER */
+  footer{
+    background:#1E1F3A;
+    color:#94a3b8;
+    padding:40px 0;
+    margin: 70px auto 0;
+    text-align:center;
+  }
+  .footer-imgA{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:10px;
+    margin-bottom:20px;
+    margin-right: 60px;
+  }
+  span{
+    margin-left: 30px;
+  }
+  
+  .footer-imgA img{
+    height: 83px;
+    width: 95px;
+  }
+  .footer-paraA{
+    font-size:12px;
+    margin-bottom:10px;
+  }
+  footer input{
+    background:#252641;
+    border:1px solid #83839A;
+    color:#FFFFFF;
+    padding:8px;
+    border-radius:80px;
+    font-size:12px;
+  }
+  .btn-subA{
+    
+    background:#49BBBD;
+   
+    border:none;
+    padding:8px 16px;
+    border-radius:60px;
+    cursor:pointer;
+    font-size:12px;
+  }
+   .btn-subA a{
+    text-decoration: none;
+     color:#fff;
+   }
+
+  .footer-linksA{
+    margin-top:20px;
+    font-size:11px;
+  }
+  .footer-linksA a{
+    color:#B2B3CF;
+    text-decoration:none;
+    margin:0 6px;
+  }
+  .copyrightA{
+    margin-top:10px
+    ;font-size:10px;
+    color: #B2B3CF;
+  }
+  #lina{
+    border: none;
+  }
+
+/* end  */
+
+/* =========================================================
+   RESPONSIVE MEDIA QUERIES
+   ========================================================= */
+
+
+/* =========================================================
+   LARGE DESKTOP
+   1440px and above
+   ========================================================= */
+
+@media (min-width: 1440px) {
+
+    .navbarA {
+        padding: 15px 7%;
+    }
+
+    .nav-linksA .ulA {
+        gap: 35px;
+        padding-left: 200px;
+    }
+
+    .pricingA {
+        padding: 60px 0;
+    }
+
+    .pricingA .h1A {
+        font-size: 58px;
+    }
+
+    .pricing-containerA {
+        gap: 40px;
+    }
+
+    .cardA {
+        width: 280px;
+    }
+
+    .bannerA {
+        max-width: 1200px;
+        margin: 40px auto;
+    }
+
+    .faq-itemA {
+        margin-left: 8%;
+        margin-right: 8%;
+    }
+
+    .girlA {
+        height: auto;
+        min-height: 460px;
+    }
+
+    .girl-gridA {
+        gap: 25px;
+    }
+
+    .girl-cardA {
+        width: 220px;
+    }
+
+    .app-bannerA {
+        max-width: 1200px;
+        margin: 70px auto;
+    }
+
+    .cardsA {
+        gap: 35px;
+    }
+
+    .c-cardA {
+        width: 460px;
+    }
+
+    .c-cardA .card-img {
+        width: calc(100% - 40px);
+    }
+}
+
+
+/* =========================================================
+   DESKTOP
+   1200px - 1439px
+   ========================================================= */
+
+@media (min-width: 1200px) and (max-width: 1439px) {
+
+    .navbarA {
+        padding: 13px 5%;
+    }
+
+    .nav-linksA .ulA {
+        gap: 25px;
+        padding-left: 100px;
+    }
+
+    .pricing-containerA {
+        gap: 20px;
+    }
+
+    .cardA {
+        width: 260px;
+    }
+
+    .bannerA {
+        margin: 30px 40px;
+    }
+
+    .faq-itemA {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .app-bannerA {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .c-cardA {
+        width: 420px;
+    }
+
+    .c-cardA .card-img {
+        width: calc(100% - 40px);
+    }
+}
+
+
+/* =========================================================
+   LAPTOP / MACBOOK
+   1024px - 1199px
+   ========================================================= */
+
+@media (min-width: 1024px) and (max-width: 1199px) {
+
+    /* NAVBAR */
+
+    .navbarA {
+        padding: 12px 4%;
+    }
+
+    .logoA img {
+        height: 36px;
+    }
+
+    .nav-linksA .ulA {
+        gap: 18px;
+        padding-left: 30px;
+        padding-top: 5px;
+    }
+
+    .nav-linksA a {
+        font-size: 14px;
+    }
+
+    .profile-imgA {
+        width: 36px;
+        height: 36px;
+    }
+
+    .usernameA {
+        font-size: 14px;
+    }
+
+
+    /* PRICING */
+
+    .pricingA {
+        padding: 35px 20px;
+    }
+
+    .pricingA .h1A {
+        font-size: 46px;
+        margin-bottom: 30px;
+    }
+
+    .pricing-containerA {
+        gap: 15px;
+    }
+
+    .cardA {
+        width: 30%;
+        padding: 22px 18px;
+    }
+
+    .priceA {
+        font-size: 34px;
+    }
+
+    .paraA {
+        font-size: 14px;
+    }
+
+    .list-styleA {
+        margin-left: -18px;
+    }
+
+    .list-styleA .liA {
+        font-size: 13px;
+        gap: 7px;
+    }
+
+
+    /* BANNER */
+
+    .bannerA {
+        margin: 30px 25px;
+        padding: 40px 25px;
+    }
+
+
+    /* FAQ */
+
+    .faqA {
+        padding: 40px 20px;
+    }
+
+    .faq-itemA {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .faq-aA {
+        font-size: 16px;
+    }
+
+
+    /* TESTIMONIALS */
+
+    .girlA {
+        height: auto;
+        min-height: 460px;
+        padding: 40px 20px;
+    }
+
+    .girl-titleA {
+        padding: 0 20px;
+    }
+
+    .girl-wrapperA {
+        gap: 10px;
+    }
+
+    .girl-gridA {
+        gap: 15px;
+    }
+
+    .girl-cardA {
+        width: 180px;
+        height: 220px;
+    }
+
+    .girl-cardA .girl-imgA {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    .girl-cardA .pA {
+        font-size: 15px;
+    }
+
+
+    /* APP BANNER */
+
+    .app-bannerA {
+        margin: 60px 35px;
+        padding: 30px 25px;
+    }
+
+    .app-bannerA .h3AA {
+        font-size: 21px;
+    }
+
+
+    /* TWO CARDS */
+
+    .cardsA {
+        gap: 20px;
+        margin-top: 70px;
+    }
+
+    .c-cardA {
+        width: 42%;
+        height: 380px;
+    }
+
+    .c-cardA .card-img {
+        width: calc(100% - 40px);
+        height: 180px;
+        object-fit: cover;
+    }
+
+    .c-cardA .buttonA {
+        margin-left: 0;
+    }
+}
+
+
+/* =========================================================
+   TABLET
+   769px - 1023px
+   ========================================================= */
+
+@media (min-width: 769px) and (max-width: 1023px) {
+
+    /* NAVBAR */
+
+    .navbarA {
+        padding: 12px 4%;
+    }
+
+    .logoA img {
+        height: 34px;
+    }
+
+    .nav-linksA .ulA {
+        gap: 14px;
+        padding-left: 10px;
+    }
+
+    .nav-linksA a {
+        font-size: 13px;
+    }
+
+    .user-profileA {
+        gap: 6px;
+    }
+
+    .profile-imgA {
+        width: 34px;
+        height: 34px;
+    }
+
+    .usernameA {
+        font-size: 13px;
+    }
+
+
+    /* PRICING */
+
+    .pricingA {
+        padding: 35px 15px;
+    }
+
+    .pricingA .h1A {
+        font-size: 40px;
+        margin-bottom: 25px;
+    }
+
+    .pricing-containerA {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .cardA {
+        width: 30%;
+        min-width: 210px;
+        padding: 20px 15px;
+    }
+
+    .cardA.midA {
+        transform: translateY(-5px);
+    }
+
+    .priceA {
+        font-size: 30px;
+    }
+
+    .priceA .spanA {
+        font-size: 11px;
+    }
+
+    .paraA {
+        font-size: 13px;
+    }
+
+    .list-styleA {
+        margin-left: -15px;
+    }
+
+    .list-styleA .liA {
+        font-size: 12px;
+        gap: 6px;
+        margin-bottom: 15px;
+    }
+
+
+    /* BANNER */
+
+    .bannerA {
+        margin: 25px 20px;
+        padding: 35px 20px;
+        border-radius: 25px;
+    }
+
+    .bannerA .h3A {
+        font-size: 18px;
+    }
+
+    .bannerA .pA {
+        font-size: 13px;
+    }
+
+
+    /* FAQ */
+
+    .faqA {
+        padding: 40px 15px;
+    }
+
+    .faq-titleA {
+        font-size: 23px;
+    }
+
+    .faq-itemA {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .faq-qA {
+        font-size: 13px;
+    }
+
+    .faq-aA {
+        font-size: 15px;
+    }
+
+
+    /* TESTIMONIALS */
+
+    .girlA {
+        height: auto;
+        padding: 35px 15px;
+    }
+
+    .girl-titleA {
+        font-size: 22px;
+        padding: 0 15px;
+    }
+
+    .girl-wrapperA {
+        gap: 8px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .girl-gridA {
+        gap: 10px;
+    }
+
+    .girl-cardA {
+        width: 150px;
+        height: 205px;
+    }
+
+    .girl-cardA .girl-imgA {
+        width: 45px;
+        height: 45px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    .girl-cardA b {
+        font-size: 12px;
+    }
+
+    .girl-cardA .pA {
+        font-size: 12px;
+    }
+
+    .iconA {
+        width: 28px;
+        height: 28px;
+        flex-shrink: 0;
+    }
+
+
+    /* APP BANNER */
+
+    .app-bannerA {
+        height: auto;
+        min-height: 90px;
+        margin: 50px 25px;
+        padding: 25px 20px;
+    }
+
+    .app-bannerA .h3AA {
+        font-size: 19px;
+    }
+
+    .app-btnA {
+        width: 125px;
+        font-size: 12px;
+        padding: 7px 10px;
+    }
+
+
+    /* TWO CARDS */
+
+    .cardsA {
+        gap: 15px;
+        margin-top: 60px;
+    }
+
+    .c-cardA {
+        width: 43%;
+        height: 350px;
+    }
+
+    .c-cardA .card-img {
+        width: calc(100% - 30px);
+        height: 160px;
+        margin: 15px;
+        object-fit: cover;
+    }
+
+    .c-cardA .card-div {
+        padding: 5px 18px;
+    }
+
+    .c-cardA .h4A {
+        font-size: 18px;
+    }
+
+    .c-cardA .buttonA {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+}
+
+
+/* =========================================================
+   MOBILE
+   481px - 768px
+   ========================================================= */
+
+@media (min-width: 481px) and (max-width: 768px) {
+
+    /* NAVBAR */
+
+    .navbarA {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px;
+        padding: 15px 20px;
+    }
+
+    .logoA {
+        width: 100%;
+        text-align: center;
+    }
+
+    .logoA img {
+        height: 38px;
+    }
+
+    .nav-linksA {
+        width: 100%;
+    }
+
+    .nav-linksA .ulA {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 15px;
+        padding: 0;
+    }
+
+    .nav-linksA a {
+        font-size: 13px;
+    }
+
+    .user-profileA {
+        justify-content: center;
+    }
+
+
+    /* PRICING */
+
+    .pricingA {
+        width: 100%;
+        padding: 30px 20px;
+    }
+
+    .pricingA .h1A {
+        font-size: 36px;
+        margin-bottom: 25px;
+    }
+
+    .pricing-containerA {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .cardA {
+        width: 90%;
+        max-width: 360px;
+        margin: 10px 0;
+    }
+
+    .cardA.midA {
+        transform: none;
+    }
+
+    .priceA {
+        font-size: 36px;
+    }
+
+    .list-styleA {
+        min-height: auto;
+    }
+
+
+    /* BANNER */
+
+    .bannerA {
+        margin: 25px 15px;
+        padding: 35px 20px;
+        border-radius: 25px;
+    }
+
+    .bannerA .h3A {
+        font-size: 18px;
+    }
+
+    .bannerA .pA {
+        font-size: 13px;
+    }
+
+
+    /* FAQ */
+
+    .faqA {
+        padding: 35px 15px;
+    }
+
+    .faq-titleA {
+        font-size: 22px;
+    }
+
+    .faq-itemA {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .faq-aA {
+        font-size: 14px;
+    }
+
+
+    /* TESTIMONIALS */
+
+    .girlA {
+        height: auto;
+        padding: 30px 15px;
+    }
+
+    .girl-titleA {
+        font-size: 21px;
+        padding: 0 10px;
+    }
+
+    .girl-wrapperA {
+        margin: 0;
+        gap: 8px;
+    }
+
+    .girl-gridA {
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        justify-content: flex-start;
+        width: calc(100% - 70px);
+        padding: 5px;
+    }
+
+    .girl-cardA {
+        flex: 0 0 170px;
+        height: 210px;
+    }
+
+    .girl-cardA .girl-imgA {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    .girl-cardA .pA {
+        font-size: 13px;
+    }
+
+
+    /* APP BANNER */
+
+    .app-bannerA {
+        height: auto;
+        margin: 40px 15px;
+        padding: 25px 15px;
+        flex-direction: column;
+        gap: 18px;
+        text-align: center;
+    }
+
+    .app-bannerA .h3AA {
+        font-size: 20px;
+    }
+
+    .app-btnA {
+        width: 130px;
+    }
+
+
+    /* TWO CARDS */
+
+    .cardsA {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        margin-top: 50px;
+    }
+
+    .c-cardA {
+        width: 90%;
+        max-width: 430px;
+        height: auto;
+        min-height: 370px;
+    }
+
+    .c-cardA .card-img {
+        width: calc(100% - 30px);
+        height: 190px;
+        margin: 15px;
+        object-fit: cover;
+    }
+
+    .c-cardA .buttonA {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+
+    /* FOOTER */
+
+    footer {
+        margin-top: 50px;
+        padding: 35px 15px;
+    }
+
+    .footer-imgA {
+        margin-right: 0;
+    }
+}
+
+
+/* =========================================================
+   SMALL MOBILE
+   320px - 480px
+   ========================================================= */
+
+@media (max-width: 480px) {
+
+    /* NAVBAR */
+
+    .navbarA {
+        flex-direction: column;
+        gap: 12px;
+        padding: 15px 10px;
+    }
+
+    .logoA img {
+        height: 35px;
+    }
+
+    .nav-linksA {
+        width: 100%;
+    }
+
+    .nav-linksA .ulA {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px 15px;
+        padding: 0;
+    }
+
+    .nav-linksA a {
+        font-size: 12px;
+    }
+
+    .user-profileA {
+        gap: 7px;
+    }
+
+    .profile-imgA {
+        width: 32px;
+        height: 32px;
+    }
+
+    .usernameA {
+        font-size: 13px;
+    }
+
+
+    /* PRICING */
+
+    .pricingA {
+        width: 100%;
+        padding: 25px 10px;
+    }
+
+    .pricingA .h1A {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    .pricing-containerA {
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .cardA {
+        width: 95%;
+        max-width: 350px;
+        margin: 10px 0;
+        padding: 20px 18px;
+    }
+
+    .cardA.midA {
+        transform: none;
+    }
+
+    .priceA {
+        font-size: 32px;
+    }
+
+    .priceA .spanA {
+        font-size: 10px;
+    }
+
+    .list-styleA {
+        margin-left: -10px;
+        min-height: auto;
+    }
+
+    .list-styleA .liA {
+        font-size: 12px;
+        margin-bottom: 14px;
+    }
+
+
+    /* BANNER */
+
+    .bannerA {
+        margin: 20px 10px;
+        padding: 30px 15px;
+        border-radius: 20px;
+    }
+
+    .bannerA .h3A {
+        font-size: 17px;
+    }
+
+    .bannerA .pA {
+        font-size: 12px;
+        line-height: 1.5;
+    }
+
+
+    /* FAQ */
+
+    .faqA {
+        padding: 30px 10px;
+    }
+
+    .faq-titleA {
+        font-size: 20px;
+    }
+
+    .faq-itemA {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .faq-qA {
+        font-size: 12px;
+    }
+
+    .faq-aA {
+        padding-left: 15px;
+        font-size: 13px;
+    }
+
+
+    /* TESTIMONIALS */
+
+    .girlA {
+        height: auto;
+        padding: 25px 10px;
+    }
+
+    .girl-titleA {
+        font-size: 19px;
+        padding: 0 5px;
+    }
+
+    .girl-wrapperA {
+        margin: 0;
+        gap: 5px;
+    }
+
+    .girl-gridA {
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        justify-content: flex-start;
+        width: calc(100% - 60px);
+        gap: 10px;
+        padding: 5px;
+    }
+
+    .girl-cardA {
+        flex: 0 0 155px;
+        height: 200px;
+    }
+
+    .girl-cardA .girl-imgA {
+        width: 45px;
+        height: 45px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    .girl-cardA b {
+        font-size: 12px;
+    }
+
+    .girl-cardA .pA {
+        font-size: 12px;
+    }
+
+    .iconA {
+        width: 25px;
+        height: 25px;
+        flex-shrink: 0;
+    }
+
+
+    /* APP BANNER */
+
+    .app-bannerA {
+        height: auto;
+        margin: 35px 10px;
+        padding: 22px 10px;
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+
+    .app-bannerA .h3AA {
+        font-size: 18px;
+    }
+
+    .app-btnA {
+        width: 120px;
+        padding: 7px 8px;
+        font-size: 11px;
+    }
+
+
+    /* TWO CARDS */
+
+    .cardsA {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        margin-top: 40px;
+    }
+
+    .c-cardA {
+        width: 95%;
+        height: auto;
+        min-height: 350px;
+    }
+
+    .c-cardA .card-img {
+        width: calc(100% - 20px);
+        height: 170px;
+        margin: 10px;
+        object-fit: cover;
+    }
+
+    .c-cardA .card-div {
+        padding: 5px 15px;
+    }
+
+    .c-cardA .buttonA {
+        margin: 5px 0 10px 0;
+        float: right;
+    }
+
+
+    /* FOOTER */
+
+    footer {
+        margin-top: 45px;
+        padding: 30px 10px;
+    }
+
+    .footer-imgA {
+        margin-right: 0;
+    }
+
+    .footer-imgA img {
+        height: 65px;
+        width: 75px;
+    }
+
+    footer input {
+        width: 55%;
+    }
+}
+
+
+/* =========================================================
+   VERY SMALL MOBILE
+   320px and below
+   ========================================================= */
+
+@media (max-width: 320px) {
+
+    .nav-linksA .ulA {
+        gap: 8px 10px;
+    }
+
+    .nav-linksA a {
+        font-size: 11px;
+    }
+
+    .pricingA .h1A {
+        font-size: 27px;
+    }
+
+    .cardA {
+        width: 100%;
+    }
+
+    .priceA {
+        font-size: 28px;
+    }
+
+    .bannerA .h3A {
+        font-size: 15px;
+    }
+
+    .faq-titleA {
+        font-size: 18px;
+    }
+
+    .girl-titleA {
+        font-size: 17px;
+    }
+
+    .app-bannerA .h3AA {
+        font-size: 16px;
+    }
+
+    .c-cardA {
+        width: 100%;
+    }
+
+    footer input {
+        width: 52%;
+    }
+}
